@@ -1,4 +1,4 @@
-const SOSI_producer           = 'GeoJSONtoSOSI'
+const SOSI_producer           = 'SWEAS'
 const SOSI_altitude_accuracy  = 3
 const SOSI_latlong_accuracy   = 7
 const SOSI_type_from_geojson  = {
@@ -38,7 +38,7 @@ function compileSOSI(FeatureCollection, SOSI_objtypes) {
   `.HODE 0:
   ..TEGNSETT UTF-8
   ..TRANSPAR
-  ...KOORDSYS 84
+  ...KOORDSYS 22
   ...ORIGO-NØ 0 0
   ...ENHET ${SOSIunit}
   ...ENHET-H ${SOSIheightunit}
